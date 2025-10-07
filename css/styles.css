@@ -1,8 +1,9 @@
 body {font-family: 'Roboto', sans-serif;
   color: #2e2f42; 
-  width: 1440px;
-    height: 3300px;
     color: #FFFFFF;
+}
+.body {width: 1440px;
+  margin: 0;
 }
 h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
@@ -12,13 +13,9 @@ header {
   justify-content: flex-start;
   background-color: #FFFFFF;
   border: 1px solid #E7E9FC;
-  width: 1440px;
-  height: 72px;
-  
+
 }
-header h2 {width: 115px;
-  height: 24px;
-  padding-left: 156px;
+header h2 {padding-left: 156px;
   padding-top: 24px;
 padding-bottom: 24px;
 }
@@ -27,8 +24,6 @@ header nav ul{
   display: flex;
   justify-content: space-between;
   gap: 40px;
-  width: 261px;
-  height: 24px;
 padding-top: 24px;
   padding-left: 76px}
 
@@ -99,8 +94,6 @@ address {
 
 .anabaslik {display: flex;
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
   flex-direction: column;
   align-items: center;
 }
@@ -114,8 +107,6 @@ h1 {
   color: #ffffff;
   background-color: #2e2f42;
   text-align: center;
-  width: 496px;
-  height: 120px;
   padding-top: 260px;
   padding-bottom: 48px;
 }
@@ -128,10 +119,7 @@ button {
   color: #ffffff;
   background-color: #4d5ae5;
   vertical-align: middle;
-  cursor: pointer;
-  width: 169px;
-  height: 56px;
-  
+  cursor: pointer;  
 }
 
 button:hover {
@@ -147,8 +135,6 @@ button:hover {
 .bilgi1a {display: flex;
 padding-top: 120px;
 padding-bottom: 120px;
-width: 1128px;
-height: 104px;
 padding-left: 156px;}
 
 .bilgi1 ul li h3 {
@@ -178,18 +164,15 @@ padding-left: 156px;}
   padding-bottom: 72px;
 }
 .bilgi2a {display: flex;
-  justify-content: flex-start;
   gap: 24px;
   padding-left: 156px;
- 
+  flex-wrap: wrap;
 }
 
 
 .bilgi2a li {display: flex;
   flex-direction: column;
   background-color: #FFFFFF;
-  width: 264px;
-  height: 380px;
 }
 .bilgi2a li h3 {padding-top: 32px;
   padding-bottom: 8px;
@@ -200,8 +183,6 @@ padding-left: 156px;}
   margin: 0;
   background-color: #f4f4fd;
   transition: 0.3s;
-  width: 1440px;
-    height: 732px;
 }
 
 .bilgi2 h3 {
@@ -219,12 +200,9 @@ padding-left: 156px;}
   letter-spacing: 0.02em;
   color: #434455;
 }
-.bilgi3 {width: 1128px;
-height: 1000px;
-border: 1px solid #E7E9FC;}
+.bilgi3 {border: 1px solid #E7E9FC;}
 
 .bilgi3a {display: flex;
-  width: 1440px;
   padding-top: 72px;
   padding-left: 156px;
   justify-content: flex-start;
@@ -274,10 +252,8 @@ border: 1px solid #E7E9FC;}
   color: #4d5ae5;
   text-decoration: none;
 }
-footer {display: flex;
+footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
   text-decoration: none;
 
 }
@@ -292,19 +268,20 @@ footer {display: flex;
   text-decoration: none;
 }
 
-footer p {
+footer p {display: flex;
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
   text-decoration: none;
-  padding-top: 140px;
+  padding-top: 16px;
+  padding-left: 156px;
+  padding-bottom: 100px;
+  width: 264px;
   
 }
-.logo {
-  width: 115px;
-  height: 24px;
+.logo {display: flex;  
   padding-top: 100px;
   padding-left: 156px;
 }
