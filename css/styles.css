@@ -2,8 +2,8 @@ body {font-family: 'Roboto', sans-serif;
   color: #2e2f42; 
     color: #FFFFFF;
 }
-.body {width: 1440px;
-  margin: 0;
+.container {width: 1440px;
+  margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
@@ -207,6 +207,7 @@ padding-left: 156px;}
   padding-left: 156px;
   justify-content: flex-start;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .bilgi3 h2 {
