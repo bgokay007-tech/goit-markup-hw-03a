@@ -96,6 +96,8 @@ address {
   background-color: #2e2f42;
   flex-direction: column;
   align-items: center;
+  height: 600px;
+  
 }
 h1 {
   font-family: roboto;
@@ -107,7 +109,7 @@ h1 {
   color: #ffffff;
   background-color: #2e2f42;
   text-align: center;
-  padding-top: 260px;
+  padding-top: 188px;
   padding-bottom: 48px;
 }
 button {
@@ -120,6 +122,8 @@ button {
   background-color: #4d5ae5;
   vertical-align: middle;
   cursor: pointer;  
+  height: 56px;
+  width: 169px;
 }
 
 button:hover {
@@ -135,7 +139,9 @@ button:hover {
 .bilgi1a {display: flex;
 padding-top: 120px;
 padding-bottom: 120px;
-padding-left: 156px;}
+padding-left: 156px;
+padding-right: 156px;
+gap: 24px;}
 
 .bilgi1 ul li h3 {
   font-family: roboto, sans-serif;
@@ -152,6 +158,7 @@ padding-left: 156px;}
   letter-spacing: 0.02em;
   color: #434455;
   padding-top: 8px;
+  
 }
 .bilgi2 h2 {
   font-family: roboto, sans-serif;
@@ -166,6 +173,7 @@ padding-left: 156px;}
 .bilgi2a {display: flex;
   gap: 24px;
   padding-left: 156px;
+  padding-bottom: 120px;
   flex-wrap: wrap;
 }
 
@@ -200,15 +208,18 @@ padding-left: 156px;}
   letter-spacing: 0.02em;
   color: #434455;
 }
-.bilgi3 {border: 1px solid #E7E9FC;}
+
 
 .bilgi3a {display: flex;
   padding-top: 72px;
-  padding-left: 156px;
-  justify-content: flex-start;
-  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 120px;
   gap: 24px;
+}
+.bilgi3a li {border-left; 4px solid #FFFFFF;
+border-right: 4px solid #FFFFFF;
+ 
 }
 .bilgi3 h2 {
   font-family: roboto, sans-serif;
@@ -234,8 +245,7 @@ padding-left: 156px;}
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.bilgi3 p {
-  font-family: roboto, sans-serif;
+.bilgi3 p {  font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
